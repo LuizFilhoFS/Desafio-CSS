@@ -1,0 +1,140 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    margin-right: 32px;
+    color: #17233d;
+    cursor: pointer;    
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    background-color: #6fbf44;
+    border: 1px solid #4CB538;
+    cursor: pointer;
+}
+
+img {
+    width: 595px;
+    height: 450px;
+    margin-right: 85px;
+    display: inline-block;
+}
+
+main {
+    
+    margin-left: 121px;
+    margin-bottom: 20px;
+}
+
+div {
+    height: 500px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 62px;
+    width: 582px;
+    height: 164px;
+    margin-top: 150px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-main {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #6FBF44;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-main:hover {
+    background-color: rgb(219, 225, 223);
+}
+
+.button-header:hover {
+    background-color: #62a93c;
+}
+
+a:hover {
+    color: #3f4962;
+    font-size: 15px;
+}
+
+
+@media (max-width: 515px) {
+    .link-header {
+        margin-right: 15px;
+        display: absolute;
+    }
+    
+    .button-header {
+        width: 84px;
+        height: 36px;
+    }
+
+    main {
+        margin-left: 10px;
+    }
+
+    img {
+    width: 395px;
+    height: 300px;
+    display: inline-block;
+    }
+
+    h1 {
+    width: 382px;
+    height: 84px;
+    margin-top: 15px;
+    font-weight: 500;
+    }
+
+    p {
+    width: 293px;
+    height: 50px;
+    margin-top: 120px;
+    margin-bottom: 55px;
+    font-weight: 300;
+    }
+
+    .link-main {
+        margin-top: 70px;
+    }
+}
